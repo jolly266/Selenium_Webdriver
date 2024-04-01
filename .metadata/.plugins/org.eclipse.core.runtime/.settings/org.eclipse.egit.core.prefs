@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=E\:\\Selenium\\Selenium_Project\\.git;
-GitRepositoriesView.GitDirectories.relative=Selenium_Project\\.git;
+GitRepositoriesView.GitDirectories=E\:\\Selenium\\Selenium_Project\\.git;E\:\\Selenium\\.git;
+GitRepositoriesView.GitDirectories.relative=Selenium_Project\\.git;.git;
 RepositoryGroups.uuids=
 RepositorySearchDialogSearchPath=C\:\\Users\\J K Gupta\\git
 core_autoIgnoreDerivedResources=false

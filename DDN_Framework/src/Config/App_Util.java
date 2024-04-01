@@ -16,6 +16,7 @@ public class App_Util {
 		@BeforeTest
 		public static void SetUp()throws Throwable
 		{
+			// Git Check
 			conpro= new Properties();
 			conpro.load(new FileInputStream("./PropertyFile/Environment.properties"));
 			if(conpro.getProperty("Browser").equalsIgnoreCase("chrome"))
