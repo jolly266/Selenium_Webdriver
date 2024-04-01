@@ -6,6 +6,11 @@ public class Countof_Lower_Upper_Letter {
 
 	public static void main(String[] args) {
 		
+		//Git Commit 1
+		//Git Commit 2
+		//Git Commit 3
+		
+		
 		String str = "WelcomeToSelenium";
 		int lowe = 0;
 		int upper = 0;				
