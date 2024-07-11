@@ -1,16 +1,13 @@
-<suite name = "Validate Primus Bank">
-<test name = "Validate primus bank Report">
-<classes>
-<class name = "Executable_TestNG.TestNG_PrimusBank">
-</class>
-<class name = "Executable_TestNG.TestNG_PrimusBank1">
-</class>
-<class name = "Executable_TestNG.TestNG_PrimusBank2">
-</class>
-<class name = "Executable_TestNG.TestNG_PrimusBank3">
-</class>
-</classes>
-</test>
+<suite name="Validate Primus Bank">
+	<test name="Validate primus bank Report">
+		<classes>
+			<class name="Executable_TestNG.TestNG_PrimusBank" />
+			<class name="Executable_TestNG.TestNG_PrimusBank1" />
+			<class name="Executable_TestNG.TestNG_PrimusBank2" />
+			<class name="Executable_TestNG.TestNG_PrimusBank3" />
+
+		</classes>
+	</test>
 </suite>
 
 

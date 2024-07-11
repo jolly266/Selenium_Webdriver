@@ -6,9 +6,7 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TestNG_Framework"/>
-    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
-        <mapEntry key="Extent_Report.Generate_ExtentReport" value=""/>
-    </mapAttribute>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
     <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
         <listEntry value="Extent_Report.Generate_ExtentReport"/>
     </listAttribute>

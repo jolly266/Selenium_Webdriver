@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Validate Primus Bank]">
+  <test thread-count="5" name="Validate primus bank Report(failed)">
     <classes>
-      <class name="Extent_Report.Generate_ExtentReport">
+      <class name="Executable_TestNG.TestNG_PrimusBank2">
         <methods>
-          <include name="testPass"/>
-          <include name="tearDown"/>
-          <include name="testfail"/>
-          <include name="setUp"/>
-          <include name="generateReport"/>
+          <include name="users"/>
+          <include name="login"/>
+          <include name="tearoff"/>
         </methods>
-      </class> <!-- Extent_Report.Generate_ExtentReport -->
+      </class> <!-- Executable_TestNG.TestNG_PrimusBank2 -->
+      <class name="Executable_TestNG.TestNG_PrimusBank1">
+        <methods>
+          <include name="roles"/>
+          <include name="login"/>
+          <include name="tearoff"/>
+        </methods>
+      </class> <!-- Executable_TestNG.TestNG_PrimusBank1 -->
+      <class name="Executable_TestNG.TestNG_PrimusBank3">
+        <methods>
+          <include name="employee"/>
+          <include name="login"/>
+          <include name="tearoff"/>
+        </methods>
+      </class> <!-- Executable_TestNG.TestNG_PrimusBank3 -->
+      <class name="Executable_TestNG.TestNG_PrimusBank">
+        <methods>
+          <include name="branches"/>
+          <include name="login"/>
+          <include name="tearoff"/>
+        </methods>
+      </class> <!-- Executable_TestNG.TestNG_PrimusBank -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Validate primus bank Report(failed) -->
+</suite> <!-- Failed suite [Validate Primus Bank] -->

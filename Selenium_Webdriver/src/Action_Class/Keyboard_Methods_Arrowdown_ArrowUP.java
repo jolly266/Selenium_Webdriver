@@ -29,6 +29,7 @@ public class Keyboard_Methods_Arrowdown_ArrowUP {
 		Thread.sleep(3000);
 		ac.sendKeys(Keys.ENTER).perform();
 		Thread.sleep(3000);
-		driver.quit();		
+		driver.quit();	
+		
 	}
 }
